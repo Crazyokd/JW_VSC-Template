@@ -1,5 +1,7 @@
 # JW_VSC-Template
 A simple template for developing JavaWeb applications on vscode.
+
+一个在vscode上开发JavaWeb应用程序的简单模板。
 ## About The Project
 - Lightweight
 - Minimize vscode plug-ins
@@ -7,15 +9,21 @@ A simple template for developing JavaWeb applications on vscode.
 ## Directory Structure
 ```
 project
-    |__package_name
+    |__pkg
     |       |
-    |       |__*.java
+    |       |__package_name1
+    |       |       |
+    |       |       |__*.java
+    |       |
+    |       |__package_name2
+    |               |
+    |               |__*.java
     |
     |__WEB-INF
     |       |
     |       |__classes
     |       |       |
-    |       |       |__*.class
+    |       |       |__/**/*.class
     |       |
     |       |__lib
     |       |
