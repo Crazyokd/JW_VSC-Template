@@ -20,7 +20,6 @@ goto :eof
 
 :processline
 set CLSPT=%CLSPT%;%*
-echo %CLSPT%
 
 goto :eof
 
