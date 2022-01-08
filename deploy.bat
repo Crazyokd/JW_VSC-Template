@@ -1,3 +1,4 @@
+@echo off
 dir /s /B *.java > .\sources.txt
 
 dir /s /B *.jar > .\classpath.txt
