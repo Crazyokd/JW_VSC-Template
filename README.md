@@ -65,6 +65,8 @@ Modify the following documents according to the internal instructions of the doc
 - [config/*.xml](config/)
 - [.vscode/settings.json](.vscode/settings.json)
 
+> **In addition, please pay attention to the problem of windows drive letter**
+
 ## Usage
 - Start-up Tomcat Server
 ```
