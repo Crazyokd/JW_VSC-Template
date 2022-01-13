@@ -5,7 +5,7 @@ set TOMCAT_HOME="D:\ProgramFiles2\Tomcat\apache-tomcat-8.0.50"
 set CURRENT_DIR=%cd%
 
 call .\deploy.bat
-copy config\*.xml "%TOMCAT_HOME%\conf\Catalina\localhost\"
+copy config\*.xml "%TOMCAT_HOME%\conf\Catalina\localhost\" >NUL 2>&1
 
 set TOMCAT_HOME_BIN="%TOMCAT_HOME%\bin"
 
